@@ -1,0 +1,150 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: url(./ramon-salinero-vEE00Hx5d0Q-unsplash\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .navbar {
+        margin-left: 60%;
+        padding: 2%;
+        position: relative;
+    }
+    
+    ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 7%;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        color: beige;
+    }
+    
+    a:hover {
+        border-bottom: 4px solid teal;
+        transition: border-bottom 0.6s;
+        padding-bottom: 1%;
+        cursor: pointer;
+        color: tomato;
+    }
+    
+    .maintext {
+        position: absolute;
+        top: 38%;
+        left: 5%;
+    }
+    
+    h1 {
+        color: white;
+        font-size: 90px;
+    }
+    
+    h3 {
+        color: rgb(116, 255, 176);
+        padding-top: 1%;
+        font-size: 40px;
+        letter-spacing: 1.2px;
+        word-spacing: 1.2px;
+    }
+    
+    span {
+        color: lightsalmon;
+        font-size: 90px;
+    }
+    
+    .about {
+        background-color: lightslategray;
+        min-height: 100px;
+        text-align: center;
+        padding: 2%;
+        padding-bottom: 5%;
+    }
+    
+    p {
+        font-size: 32px;
+        margin-top: 1%;
+        color: rgb(2, 48, 48);
+        font-weight: bolder;
+        letter-spacing: 1.2px;
+        word-spacing: 1.2px;
+    }
+    
+    .menu {
+        color: lightgray;
+    }
+    
+    .contact {
+        background: url(./contact.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 100px;
+        text-align: center;
+        padding-top: 4%;
+    }
+    
+    .social {
+        font-size: 35px;
+        color: red;
+        letter-spacing: 1.5px;
+        padding-bottom: 2%;
+        font-weight: bolder;
+    }
+    
+    h2 {
+        color: lightcyan;
+        font-size: 29px;
+        padding: 1%;
+    }
+    
+    .text {
+        font-size: 30px;
+        color: lightgoldenrodyellow;
+    }
+    
+    #reach {
+        font-size: 40px;
+        letter-spacing: 1.5px;
+        color: tan;
+        padding-bottom: 1%;
+    }
+    
+    span #username {
+        font-size: 30px;
+    }
+    
+    .para {
+        padding-bottom: 1%;
+        color: palevioletred;
+    }
+    
+    footer {
+        background-color: darkslategray;
+        padding: 3%;
+        display: flex;
+    }
+    
+    .footertext {
+        font-size: 30px;
+        color: mistyrose;
+        padding-left: 30px;
+        letter-spacing: 1.2px;
+        word-spacing: 1.5px;
+    }
+    
+    .footer1 {
+        width: 60%;
+    }
+    
+    .footer2 {
+        width: 40%;
+    }
